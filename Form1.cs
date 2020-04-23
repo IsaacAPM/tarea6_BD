@@ -16,5 +16,10 @@ namespace Tarea6
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            FrmActualizarPago frmap = new FrmActualizarPago();
+            frmap.ShowDialog();
+        }
     }
 }
